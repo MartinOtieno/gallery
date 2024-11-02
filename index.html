@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Powerful Wildlife of the World</title>
+</head>
+<body>
+    <header class="text-center my-4">
+        <h1>Wildlife animals Worldwide</h1>
+        <p>Explore some of the most powerful animals in the world, each with unique characteristics and habitat.</p>
+    </header>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-6 col-md-3 mb-4">
+                <div class="thumbnail-container">
+                    <img class="thumbnail img-fluid" src="images/elephant.jfif" alt="African Elephant">
+                    <div class="hover-info">
+                        <p>The African Elephant is the largest land animal with strong trunks and impressive tusks, found across Sub-Saharan Africa.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <h5>African Elephant</h5>
+                    <p>Size: Up to 13 ft (4 m)<br>Weight: Up to 12,000 lbs (5,443 kg)<br>Location: Sub-Saharan Africa</p>
+                </div>
+            </div>            
+            <div class="col-6 col-md-3 mb-4">
+                <div class="thumbnail-container">
+                    <img class="thumbnail img-fluid" src="images/Bengal-Tiger.jfif" alt="Bengal Tiger" onclick="openModal(1)">
+                    <div class="hover-info">
+                        <p>The Bengal Tiger is known for its striking orange coat with black stripes, and it is a powerful predator found primarily in India and Bangladesh.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <h5>Bengal Tiger</h5>
+                    <p>Size: Up to 10 ft (3 m)<br>Weight: Up to 700 lbs (317 kg)<br>Location: India, Bangladesh</p>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 mb-4">
+                <div class="thumbnail-container">
+                    <img class="thumbnail img-fluid" src="images/Grizzly-Bear.jfif" alt="Grizzly Bear" onclick="openModal(2)">
+                    <div class="hover-info">
+                        <p>The Grizzly Bear is a large and powerful predator, known for its strength and agility, found in North America.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <h5>Grizzly Bear</h5>
+                    <p>Size: Up to 8 ft (2.4 m)<br>Weight: Up to 1,500 lbs (680 kg)<br>Location: North America</p>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 mb-4">
+                <div class="thumbnail-container">
+                    <img class="thumbnail img-fluid" src="images/Saltwater-Crocodile.jfif" alt="Saltwater Crocodile" onclick="openModal(3)">
+                    <div class="hover-info">
+                        <p>The Saltwater Crocodile is the largest living reptile, known for its powerful bite and adaptability, found in Southeast Asia and Australia.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <h5>Saltwater Crocodile</h5>
+                    <p>Size: Up to 23 ft (7 m)<br>Weight: Up to 2,200 lbs (998 kg)<br>Location: Southeast Asia, Australia</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-6 col-md-3 mb-4">
+                <div class="thumbnail-container">
+                    <img class="thumbnail img-fluid" src="images/Lion1.jfif" alt="Lion" onclick="openModal(4)">
+                    <div class="hover-info">
+                        <p>The Lion, often called the "king of the jungle," is known for its majestic mane and social behavior, living in prides in Sub-Saharan Africa.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <h5>Lion</h5>
+                    <p>Size: Up to 13 ft (4 m)<br>Weight: Up to 420 lbs (190 kg)<br>Location: Sub-Saharan Africa</p>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 mb-4">
+                <div class="thumbnail-container">
+                    <img class="thumbnail img-fluid" src="images/rhino.jfif" alt="Rhino" onclick="openModal(5)">
+                    <div class="hover-info">
+                        <p>Rhinos are large, thick-skinned herbivores known for their horns, found in Africa and South Asia.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <h5>Rhino</h5>
+                    <p>Size: Up to 10 ft (3 m)<br>Weight: Up to 2,300 lbs (1,043 kg)<br>Location: Africa, South Asia</p>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 mb-4">
+                <div class="thumbnail-container">
+                    <img class="thumbnail img-fluid" src="images/Leopard.jfif" alt="Leopard" onclick="openModal(6)">
+                    <div class="hover-info">
+                        <p>The Leopard is a solitary and elusive big cat known for its spotted coat and adaptability, found in Africa and parts of Asia.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <h5>Leopard</h5>
+                    <p>Size: Up to 6.5 ft (2 m)<br>Weight: Up to 200 lbs (90 kg)<br>Location: Africa, Asia</p>
+                </div>
+            </div>
+            
+            <div class="col-6 col-md-3 mb-4">
+                <div class="thumbnail-container">
+                    <img class="thumbnail img-fluid" src="images/warthog.jfif" alt="Warthog" onclick="openModal(7)">
+                    <div class="hover-info">
+                        <p>The Warthog is a wild pig with distinctive tusks and facial warts, commonly found in Africa.</p>
+                    </div>
+                </div>
+                <div class="text-center mt-2">
+                    <h5>Warthog</h5>
+                    <p>Size: Up to 5 ft (1.5 m)<br>Weight: Up to 330 lbs (150 kg)<br>Location: Africa</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <a class="prev" onclick="changeImage(-1)">&#10094;</a>
+        <a class="next" onclick="changeImage(1)">&#10095;</a>
+    </div>
+
+    <!-- Footer Section -->
+<footer class="footer">
+    <div class="container text-center">
+        <p>&copy; 2024 Powerful Wildlife of the World. All rights reserved.</p>
+        
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+
+        <p>Explore the wonders of wildlife and learn more about these majestic creatures.</p>
+    </div>
+</footer>
+
+<!-- Font Awesome for social media icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
